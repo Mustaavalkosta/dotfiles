@@ -1,0 +1,15 @@
+#if [ -f ~/.bash_prompt ]; then
+#	. ~/.bash_prompt
+#fi
+
+#export USE_CCACHE=1
+export CCACHE_DIR=/home/mustaavalkosta/storage/ccache-3.1.9
+export CROSS_COMPILE=/home/mustaavalkosta/storage/arm-eabi-4.8/bin/arm-eabi-
+export ARCH=arm
+#export LD_LIBRARY_PATH=/home/mustaavalkosta/local/lib:$LD_LIBRARY_PATH
+#export LD_RUN_PATH=/home/mustaavalkosta/local/lib:$LD_RUN_PATH
+
+alias setjdk16="export JAVA_HOME=/usr/lib/jvm/jdk1.6.0_45 && export PATH=/usr/lib/jvm/jdk1.6.0_45/bin:/home/mustaavalkosta/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
+alias setjdk17="export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64 && export PATH=/usr/lib/jvm/java-7-openjdk-amd64/bin:/home/mustaavalkosta/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
+
+#export LEGACY_USE_JAVA6=true
